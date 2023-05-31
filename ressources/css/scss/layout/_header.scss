@@ -15,7 +15,7 @@ header {
 		ul {
 			@include flexRowCenter();
 			gap: 3em;
-			opacity: 0;
+			opacity: 1;
 			transition: all .3s ease;
 			transition-delay: 0s;
 			

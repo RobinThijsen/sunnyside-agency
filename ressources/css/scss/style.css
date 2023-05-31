@@ -54,7 +54,7 @@ header nav ul {
   align-items: center;
   justify-content: center;
   gap: 3em;
-  opacity: 0;
+  opacity: 1;
   transition: all 0.3s ease;
   transition-delay: 0s;
 }
@@ -340,6 +340,7 @@ footer nav.media ul a:hover i {
   }
   header nav ul {
     flex-direction: column;
+    opacity: 0;
   }
   header nav ul li a {
     color: hsl(232, 10%, 55%);
@@ -396,9 +397,6 @@ footer nav.media ul a:hover i {
   body main section:last-child {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-  }
-  body main section:last-child figure:nth-child(1), body main section:last-child figure:nth-child(2) {
-    height: calc(100% - 10px);
   }
 }
 
