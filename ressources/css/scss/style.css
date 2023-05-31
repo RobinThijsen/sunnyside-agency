@@ -303,7 +303,7 @@ footer nav.media ul a:hover i {
 }
 
 /* media queries */
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 700px) {
   header {
     padding: 3em 5%;
   }
