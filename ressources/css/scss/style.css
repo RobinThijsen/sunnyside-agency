@@ -398,6 +398,9 @@ footer nav.media ul a:hover i {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
   }
+  body main section.two-image div article {
+    padding: 0 3%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

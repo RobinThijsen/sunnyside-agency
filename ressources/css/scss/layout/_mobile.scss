@@ -113,20 +113,21 @@
 					}
 				}
 				
-				&.client-section {
+				&.client-section div {
+					flex-direction: column;
 					
-					div {
-						flex-direction: column;
-						
-						article {
-							width: 80%;
-						}
+					article {
+						width: 80%;
 					}
 				}
 				
 				&:last-child {
 					grid-template-columns: 1fr 1fr;
 					grid-template-rows: 1fr 1fr;
+				}
+				
+				&.two-image div article {
+					padding: 0 3%;
 				}
 			}
 		}
