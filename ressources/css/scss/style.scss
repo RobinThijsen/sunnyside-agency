@@ -1,0 +1,23 @@
+/* import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700;900&display=swap');
+
+/* import .scss */
+@import "utils/_variables.scss";
+@import "utils/_mixins.scss";
+
+/* fonts set */
+@import "bases/_fonts.scss";
+/* reset value of element */
+@import "bases/_resets.scss";
+
+/* layout */
+/* header */
+@import "layout/_header.scss";
+/* body */
+@import "layout/_body.scss";
+/* footer */
+@import "layout/_footer.scss";
+
+/* media queries */
+@import "layout/_mobile.scss";
